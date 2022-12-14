@@ -1,0 +1,54 @@
+.AddForm {
+  flex: 1;
+  // display: flex;
+  // flex-direction: column;
+  align-items: start;
+  // margin-left: 20px;
+  margin: 0 auto;
+  padding: 10px;
+
+  .form-content {
+    margin: 20px auto;
+    // display: flex;
+    // justify-content: space-between;
+
+    .form-title {
+      width: 330px;
+      border: 2px solid #cfd2cf;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: transparent;
+      padding-left: 10px;
+      cursor: pointer;
+    }
+
+    // .form-title::placeholder {
+    //   color: #cfd2cf;
+    //   font-weight: 400;
+    // }
+
+    .form-detail {
+      width: 330px;
+      margin-top: -10px;
+      border: 2px solid #cfd2cf;
+      border-radius: 5px;
+      height: 50px;
+      padding-left: 10px;
+      font-size: 16px;
+      background-color: transparent;
+      // margin-right: 50px;
+      padding-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .btn-add {
+    width: 120px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #a460ed;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 50px;
+  }
+}

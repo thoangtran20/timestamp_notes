@@ -1,0 +1,75 @@
+.TimestampList {
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+
+  // margin: 0 auto;
+  flex: 1;
+
+  .list-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 15px;
+    // flex-direction: column;
+    // justify-content: flex-start;
+    // align-items: flex-start;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100px;
+    padding: 5px;
+    // margin-bottom: 5px;
+
+    .title {
+      font-size: 30px;
+      color: red;
+      margin-left: 10px;
+    }
+
+    .action {
+      margin-right: 20px;
+
+      .recored {
+        margin-left: 20px;
+      }
+
+      .view {
+        display: flex;
+        justify-content: space-between;
+
+        .show,
+        .remove {
+          word-spacing: 5px;
+        }
+
+        .show {
+          margin-left: 60px;
+        }
+
+        .remove {
+          margin-left: 23px;
+        }
+
+        .show:hover {
+          cursor: pointer;
+          color: rgb(25, 25, 193);
+          font-weight: 700;
+        }
+
+        .remove:hover {
+          cursor: pointer;
+          color: rgb(193, 47, 25);
+          font-weight: 700;
+        }
+      }
+    }
+    .strike-child {
+      position: absolute;
+      border: 1px solid red;
+      bottom: 40px;
+      left: 20px;
+      width: 98%;
+    }
+  }
+}

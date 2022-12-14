@@ -1,0 +1,22 @@
+.MainContent {
+  box-sizing: border-box;
+  height: 100%;
+
+  .main-header {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(24, 98, 247);
+    // margin-bottom: 40px;
+  }
+
+  .main-body {
+    margin-top: -40px;
+    .strike {
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+      color: rgb(24, 98, 247);
+    }
+  }
+}
